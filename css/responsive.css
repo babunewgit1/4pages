@@ -29,6 +29,7 @@ Small Screen - Tablate
     left: -100%;
     top: 0;
     transition: all 0.3s ease;
+    z-index: 9999;
   }
 
   .menu ul li {
@@ -41,12 +42,12 @@ Small Screen - Tablate
   }
 
   .bannar-wrapper h1 {
-    font-size: 45px;
-    -webkit-text-stroke: 2px #fd6d03;
+    font-size: 25px;
+    -webkit-text-stroke: 2px #fff;
   }
 
   .bannar-wrapper p {
-    font-size: 26px;
+    font-size: 20px;
     margin: 25px 0px;
     line-height: 1.1;
   }
@@ -61,15 +62,17 @@ Small Screen - Tablate
 
   .welcome_heading h2 {
     font-size: 28px;
-    -webkit-text-stroke: 1px #fd6d03;
+    -webkit-text-stroke: 1px #fff;
+    text-align: center;
   }
 
   .welcome_wrapper {
     max-width: 100%;
+    grid-template-columns: 1fr;
   }
 
   .slider_item {
-    grid-template-columns: 1fr;
+    padding-right: 0;
   }
 
   .slider_item_right h3 {
@@ -82,7 +85,7 @@ Small Screen - Tablate
   }
 
   #video {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .casino_game_link {
@@ -129,6 +132,43 @@ Small Screen - Tablate
 
   .modal-body iframe {
     height: 400px;
+  }
+
+  .bann_wrapper {
+    padding: 60px 20px;
+    border-radius: 12px;
+    max-width: 470px;
+  }
+
+  .bannar-wrapper ul li a {
+    padding: 10px 18px;
+  }
+
+  .slider_item_right {
+    padding: 20px;
+    padding-top: 20px;
+    padding-top: 0;
+  }
+
+  .upcomming_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .upcomming_block {
+    order: 2;
+    margin-top: 0;
+  }
+  .up_block {
+    flex-direction: column;
+  }
+
+  .upblock_img,
+  .upblock_cnt {
+    width: 100%;
+  }
+
+  .upblock_cnt a {
+    font-size: 25px;
   }
 }
 
@@ -155,6 +195,7 @@ Small Screen - Mobile
     left: -100%;
     top: 0;
     transition: all 0.3s ease;
+    z-index: 9999;
   }
 
   .menu ul li {
@@ -167,12 +208,12 @@ Small Screen - Mobile
   }
 
   .bannar-wrapper h1 {
-    font-size: 45px;
-    -webkit-text-stroke: 2px #fd6d03;
+    font-size: 25px;
+    -webkit-text-stroke: 2px #fff;
   }
 
   .bannar-wrapper p {
-    font-size: 26px;
+    font-size: 20px;
     margin: 25px 0px;
     line-height: 1.1;
   }
@@ -187,15 +228,18 @@ Small Screen - Mobile
 
   .welcome_heading h2 {
     font-size: 28px;
-    -webkit-text-stroke: 1px #fd6d03;
+    -webkit-text-stroke: 1px #fff;
+    text-align: center;
   }
 
   .welcome_wrapper {
     max-width: 100%;
+    grid-template-columns: 1fr;
   }
 
   .slider_item {
     grid-template-columns: 1fr;
+    padding-right: 0;
   }
 
   .slider_item_right h3 {
@@ -208,7 +252,7 @@ Small Screen - Mobile
   }
 
   #video {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .casino_game_link {
@@ -255,6 +299,43 @@ Small Screen - Mobile
 
   .modal-body iframe {
     height: 400px;
+  }
+
+  .bann_wrapper {
+    padding: 60px 20px;
+    border-radius: 12px;
+  }
+
+  .bannar-wrapper ul li a {
+    padding: 10px 18px;
+  }
+
+  .slider_item_right {
+    padding: 20px;
+    padding-top: 20px;
+    padding-top: 0;
+  }
+
+  .upcomming_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .upcomming_block {
+    order: 2;
+    margin-top: 0;
+  }
+
+  .up_block {
+    flex-direction: column;
+  }
+
+  .upblock_img,
+  .upblock_cnt {
+    width: 100%;
+  }
+
+  .upblock_cnt a {
+    font-size: 25px;
   }
 }
 
@@ -281,6 +362,7 @@ Xtra Small Screen - Small Mobile
     left: -100%;
     top: 0;
     transition: all 0.3s ease;
+    z-index: 9999;
   }
 
   .menu ul li {
@@ -293,12 +375,12 @@ Xtra Small Screen - Small Mobile
   }
 
   .bannar-wrapper h1 {
-    font-size: 45px;
-    -webkit-text-stroke: 2px #fd6d03;
+    font-size: 25px;
+    -webkit-text-stroke: 2px #fff;
   }
 
   .bannar-wrapper p {
-    font-size: 26px;
+    font-size: 20px;
     margin: 25px 0px;
     line-height: 1.1;
   }
@@ -313,15 +395,18 @@ Xtra Small Screen - Small Mobile
 
   .welcome_heading h2 {
     font-size: 28px;
-    -webkit-text-stroke: 1px #fd6d03;
+    -webkit-text-stroke: 1px #fff;
+    text-align: center;
   }
 
   .welcome_wrapper {
     max-width: 100%;
+    grid-template-columns: 1fr;
   }
 
   .slider_item {
     grid-template-columns: 1fr;
+    padding-right: 0;
   }
 
   .slider_item_right h3 {
@@ -334,7 +419,7 @@ Xtra Small Screen - Small Mobile
   }
 
   #video {
-    padding-top: 50px;
+    padding-top: 0;
   }
 
   .casino_game_link {
@@ -381,5 +466,43 @@ Xtra Small Screen - Small Mobile
 
   .modal-body iframe {
     height: 400px;
+  }
+
+  .bann_wrapper {
+    padding: 60px 20px;
+    border-radius: 12px;
+  }
+
+  .bannar-wrapper ul li a {
+    padding: 10px 18px;
+  }
+
+  .slider_item_right {
+    padding: 20px;
+    padding-top: 20px;
+    padding-top: 0;
+  }
+
+  .upcomming_wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .upcomming_block {
+    order: 2;
+    margin-top: 0;
+  }
+
+
+  .up_block {
+    flex-direction: column;
+  }
+
+  .upblock_img,
+  .upblock_cnt {
+    width: 100%;
+  }
+
+  .upblock_cnt a {
+    font-size: 25px;
   }
 }
