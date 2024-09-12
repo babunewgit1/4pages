@@ -4,37 +4,6 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -43,36 +12,124 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .logo img {
+    width: 75px;
+  }
 
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    padding: 50px 20px;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease;
+  }
 
+  .menu ul li {
+    display: block;
+  }
 
+  .menu ul li a {
+    margin: 0;
+    margin-top: 16px;
+  }
 
+  .bannar-wrapper h1 {
+    font-size: 45px;
+    -webkit-text-stroke: 2px #fd6d03;
+  }
 
+  .bannar-wrapper p {
+    font-size: 26px;
+    margin: 25px 0px;
+    line-height: 1.1;
+  }
 
+  .bannar-wrapper {
+    padding: 110px 0px;
+  }
 
+  #welcome {
+    padding-top: 40px;
+  }
 
+  .welcome_heading h2 {
+    font-size: 28px;
+    -webkit-text-stroke: 1px #fd6d03;
+  }
 
+  .welcome_wrapper {
+    max-width: 100%;
+  }
 
+  .slider_item {
+    grid-template-columns: 1fr;
+  }
 
+  .slider_item_right h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
 
+  .slider_item_right p {
+    font-size: 16px;
+  }
 
+  #video {
+    padding-top: 50px;
+  }
 
+  .casino_game_link {
+    margin-top: 25px;
+  }
 
+  .casino_nav {
+    display: none;
+  }
 
+  .game_one span img {
+    width: 100px !important;
+  }
 
+  #video .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0 !important;
+  }
 
+  #upcomming {
+    padding-top: 40px;
+  }
 
+  .upcomming_block {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
 
+  .upblock_img span img {
+    width: 80px;
+  }
 
+  footer {
+    padding: 60px 0px;
+  }
 
+  .footer_wrapper {
+    display: block;
+  }
 
+  .footer_left p {
+    width: 100%;
+  }
 
-
-
-
-
-
+  .modal-body iframe {
+    height: 400px;
+  }
 }
 
 /*
@@ -80,34 +137,125 @@ Small Screen - Tablate
 Small Screen - Mobile
 ====================================
 */
-@media screen and (min-width: 576px) and (max-width: 767px) {	
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .logo img {
+    width: 75px;
+  }
 
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    padding: 50px 20px;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease;
+  }
 
+  .menu ul li {
+    display: block;
+  }
 
+  .menu ul li a {
+    margin: 0;
+    margin-top: 16px;
+  }
 
+  .bannar-wrapper h1 {
+    font-size: 45px;
+    -webkit-text-stroke: 2px #fd6d03;
+  }
 
+  .bannar-wrapper p {
+    font-size: 26px;
+    margin: 25px 0px;
+    line-height: 1.1;
+  }
 
+  .bannar-wrapper {
+    padding: 110px 0px;
+  }
 
+  #welcome {
+    padding-top: 40px;
+  }
 
+  .welcome_heading h2 {
+    font-size: 28px;
+    -webkit-text-stroke: 1px #fd6d03;
+  }
 
+  .welcome_wrapper {
+    max-width: 100%;
+  }
 
+  .slider_item {
+    grid-template-columns: 1fr;
+  }
 
+  .slider_item_right h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
 
+  .slider_item_right p {
+    font-size: 16px;
+  }
 
+  #video {
+    padding-top: 50px;
+  }
 
+  .casino_game_link {
+    margin-top: 25px;
+  }
 
+  .casino_nav {
+    display: none;
+  }
 
+  .game_one span img {
+    width: 100px !important;
+  }
 
+  #video .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0 !important;
+  }
 
+  #upcomming {
+    padding-top: 40px;
+  }
 
+  .upcomming_block {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
 
+  .upblock_img span img {
+    width: 80px;
+  }
 
+  footer {
+    padding: 60px 0px;
+  }
 
+  .footer_wrapper {
+    display: block;
+  }
 
+  .footer_left p {
+    width: 100%;
+  }
 
-
-
+  .modal-body iframe {
+    height: 400px;
+  }
 }
 
 /*
@@ -116,34 +264,122 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+  .logo img {
+    width: 75px;
+  }
 
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: #121212;
+    padding: 50px 20px;
+    left: -100%;
+    top: 0;
+    transition: all 0.3s ease;
+  }
 
+  .menu ul li {
+    display: block;
+  }
 
+  .menu ul li a {
+    margin: 0;
+    margin-top: 16px;
+  }
 
+  .bannar-wrapper h1 {
+    font-size: 45px;
+    -webkit-text-stroke: 2px #fd6d03;
+  }
 
+  .bannar-wrapper p {
+    font-size: 26px;
+    margin: 25px 0px;
+    line-height: 1.1;
+  }
 
+  .bannar-wrapper {
+    padding: 110px 0px;
+  }
 
+  #welcome {
+    padding-top: 40px;
+  }
 
+  .welcome_heading h2 {
+    font-size: 28px;
+    -webkit-text-stroke: 1px #fd6d03;
+  }
 
+  .welcome_wrapper {
+    max-width: 100%;
+  }
 
+  .slider_item {
+    grid-template-columns: 1fr;
+  }
 
+  .slider_item_right h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
 
+  .slider_item_right p {
+    font-size: 16px;
+  }
 
+  #video {
+    padding-top: 50px;
+  }
 
+  .casino_game_link {
+    margin-top: 25px;
+  }
 
+  .casino_nav {
+    display: none;
+  }
 
+  .game_one span img {
+    width: 100px !important;
+  }
 
+  #video .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0 !important;
+  }
 
+  #upcomming {
+    padding-top: 40px;
+  }
 
+  .upcomming_block {
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
 
+  .upblock_img span img {
+    width: 80px;
+  }
 
+  footer {
+    padding: 60px 0px;
+  }
 
+  .footer_wrapper {
+    display: block;
+  }
 
+  .footer_left p {
+    width: 100%;
+  }
 
-
-
-
-
-
+  .modal-body iframe {
+    height: 400px;
+  }
 }
